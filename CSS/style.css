@@ -11,3 +11,34 @@
   margin-top: 10%;
   border: 2px solid black;
 }
+.content .itens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content .itens img {
+  width: 396px;
+}
+.content .itens h1 {
+  font-size: 27px;
+  padding-top: 20px;
+  color: hsl(223, 47%, 23%);
+}
+.content .itens h2 {
+  font-size: 16px;
+  padding-top: 15px;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+}
+.content .box {
+  width: 250px;
+  height: 80px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.content .box img {
+  width: 30px;
+  height: 50px;
+}
